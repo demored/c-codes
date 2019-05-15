@@ -23,7 +23,5 @@ int main(){
 	 //将指针指向一个字符串，有的编译器不支持
 	 //char *pstr2 = "hello world";  不支持
 
-
-
 	return 0;
 }
