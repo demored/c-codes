@@ -1,14 +1,14 @@
 #include<stdio.h>
-//å®å®šä¹‰
+//ºê¶¨Òå
 #define abc printf
 
 
 int main(){
 	abc("Hello world\n");
 	#ifdef abc
-		printf("å·²ç»å®šä¹‰\n");
+		printf("ÒÑ¾­¶¨Òå\n");
 	#else
-		printf("æ²¡æœ‰å®šä¹‰\n");
+		printf("Ã»ÓĞ¶¨Òå\n");
 	#endif
 		
 	return 0;
