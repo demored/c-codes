@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<string.h>
 
-//ç»“æ„ä½“å®šä¹‰
+//½á¹¹Ìå¶¨Òå
 int main(int argc , char *argv[]){
-	printf("å“ˆå“ˆå“ˆ\n");
-	//å…ˆå®šä¹‰ç»“æ„ä½“ï¼Œå†å£°æ˜
+	printf("¹ş¹ş¹ş\n");
+	//ÏÈ¶¨Òå½á¹¹Ìå£¬ÔÙÉùÃ÷
 	struct Stu{
 		char *name;
 		int num;
@@ -18,7 +18,7 @@ int main(int argc , char *argv[]){
 	stu1.num = 20;
 	printf("%s\n", stu1.name);
 
-	//ä¸éœ€è¦å…ˆå®šä¹‰stuæ¥å£°æ˜
+	//²»ĞèÒªÏÈ¶¨ÒåstuÀ´ÉùÃ÷
 	struct{
 		char *name;
 		int num;
@@ -30,8 +30,7 @@ int main(int argc , char *argv[]){
 
 	printf("%s\n", stu2.name);
 
-	//å¯¹ç»“æ„ä½“è¿›è¡Œæ•´ä½“èµ‹å€¼
-
+	//¶Ô½á¹¹Ìå½øĞĞÕûÌå¸³Öµ
 	struct{
 		char *name;
 		int num;

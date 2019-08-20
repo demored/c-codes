@@ -9,10 +9,6 @@ typedef struct stu{
 
 int main(int argc, char *argv[]){
 
-	
-	// I a = 10;
-	// printf("%d\n", a);
-
 	STU stu1,stu2;
 	stu1.name = "A";
 	stu2.age = 20;
@@ -20,7 +16,6 @@ int main(int argc, char *argv[]){
 	printf("%d\n", stu2.age);
 
 	//typedef和#define 的区别
-
 	I a,b;
 	BB m,n;
 	a= 10;
@@ -29,10 +24,5 @@ int main(int argc, char *argv[]){
 	m = 1.12;
 	n = 2.22;
 	printf("%f, %f\n", m, n);
-
-
-
-
-
 	return 0;
 }

@@ -9,8 +9,3 @@ add_executable(main array/array.c)
 
 
 
-
-
-
-
-
