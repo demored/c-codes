@@ -21,12 +21,7 @@ int main(){
 	
 	return 0;
 
-
-
-
-
-
-
+	printf("%s,%s,%s\n");
 }
 
 

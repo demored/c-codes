@@ -6,7 +6,7 @@ int main(int argc , char *agrv[]){
 		char *name;
 		int age;
 	}stu1 = {"demored",30}, *pstu1 = &stu1;
-
+	
 	struct stu stu2;
 	stu2.name = "this is struct pratice";
 	stu2.age = 28;
